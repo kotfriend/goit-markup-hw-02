@@ -1,0 +1,170 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway',sans-serif;
+    --accent-color: #2196F3;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.adress {
+    font-style: normal;
+}
+
+/* ------------ COMPONENTS -------- */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+/* ------------ END COMPONENTS -------- */
+
+/* ------------ HEADER -------- */
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+/* ------------ END HEADER -------- */
+
+/* ------------ HERO -------- */
+.modal-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background-color: black;
+    color: #FFFFFF;
+}
+/* ------------ END HERO -------- */
+
+/* ------------ BENEFITS -------- */
+.benefits-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+}
+
+.benefits-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+/* ------------ END BENEFITS -------- */
+
+/* ------------ MODELS -------- */
+
+/* ------------ END MODELS -------- */
+
+/* ------------ SALERS -------- */
+.salers-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.salers-2-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.salers-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+/* ------------ END SALERS -------- */
+
+/* ------------ FOOTER -------- */
+.footer-left-adress {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        background-color: #212121;
+        color: #FFFFFF;
+}
+
+.footer-left-contact {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        background-color: #212121;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-right-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
+}
+
+.footer-right-link:hover,
+.footer-right-link:focus {
+    color: var(--accent-color);
+}
+/* ------------ END FOOTER -------- */
