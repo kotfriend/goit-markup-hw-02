@@ -61,6 +61,7 @@ body {
 
 /* ------------ HERO -------- */
 .modal-button {
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -135,6 +136,41 @@ body {
         color: #757575;
 }
 /* ------------ END SALERS -------- */
+
+/* ------------ MODEL SPACE -------- */
+.model-space-button {
+        font-family: var(--main-font);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        color: #212121;
+}
+
+.model-space-button:hover,
+.cmodel-space-button:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+.model-space-title{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+
+.model-space-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+/* ------------ END MODEL SPACE -------- */
 
 /* ------------ FOOTER -------- */
 .footer-left-adress {
